@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+a:link,
+a:visited{
+    color: rgb(226, 63, 218);
+}
+
+.h1{
+    text-align: center;
+}
+
+ol{
+    padding-bottom: 30px;
+}
+
+.article{
+    font-size: 1.3em;
+}
+
+.lista_super{
+    background-color: rgb(240, 236, 27);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+    color: rgb(126, 82, 13);
+}
+
+.lista_super .carnes,
+.lista_super .bebidas,
+.lista_super .frutas,
+.lista_super .otros{
+    list-style: none;
+    outline: 1px solid rgb(136, 82, 51);
+    text-align: center;
+}
+
+li ol{
+    text-align: left;
+}
+
+ol li{
+    margin-bottom: 4px;
+    border-bottom: 2px rgb(21, 37, 189) solid;
+}

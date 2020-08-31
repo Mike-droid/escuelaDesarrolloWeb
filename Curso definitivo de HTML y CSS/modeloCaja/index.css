@@ -1,0 +1,20 @@
+*{
+    /*!box-sizing:  es importante;*/
+    box-sizing: border-box;
+    padding: 0;
+    margin:0
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
+
+/**herencia*/
+
+aside{
+    font-size: 75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

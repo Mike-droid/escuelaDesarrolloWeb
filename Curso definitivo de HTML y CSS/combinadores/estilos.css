@@ -1,0 +1,20 @@
+/* h2 + p{
+    color:red;
+    /*Aplica el color rojo a todas las
+    etiquetas p que estén cerca de un h2*
+} */
+
+/* h2 ~p{
+    /*afecta a las etiquetas p que tengan
+    como hermano a un h2*
+    color: chartreuse;  
+} */
+
+div > p{
+    /*hjio directo de una etiqueta div*/
+    color:blue;
+}
+
+section p{
+    color:gold;
+}

@@ -1,0 +1,23 @@
+/* .text-container{
+    font-size: 1.5em;
+}
+
+
+.text-container div{
+    font-size: 1.5em;
+} */
+
+html{
+    font-size: 62.5%;
+    /*es lo mismo que 10px*/
+}
+
+p{
+    font-size: 1.6rem;
+    /*rem siempre va a referencia al tamaño
+    de fuente de la etiqueta HTML*/
+}
+
+.text-container div{
+    font-size: 1.6rem;
+}

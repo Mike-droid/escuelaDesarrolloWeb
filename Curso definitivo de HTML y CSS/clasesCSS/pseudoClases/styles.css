@@ -1,0 +1,27 @@
+.header__nav{
+    margin-top: 10px;
+}
+
+.nav__ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: darkturquoise;
+}
+
+.nav__ul__item{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.nav__ul__item a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav__ul__item a::after{
+    content: "|";
+}
+
+.nav__ul__item a:hover{
+    color:whitesmoke;
+}
